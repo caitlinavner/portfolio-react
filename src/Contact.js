@@ -6,12 +6,12 @@ function Contact() {
       <div>
         <header id="masthead">
           <div className="container">
-            <a href="index.html" id="logo">
+            <a href="/" id="logo">
               {" "}
               Katie Avner
             </a>
-            <nav>
-              <a href="/Home">About</a>
+            <nav className="navbar">
+              <a href="/">About</a>
               <a href="/Portfolio">Portfolio</a>
               <a href="/Contact">Contact</a>
             </nav>

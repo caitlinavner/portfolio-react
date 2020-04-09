@@ -1,7 +1,8 @@
 header {
   background-color: #baa7e4;
   border-color: #cccccc;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
   color: black;
 }
 
@@ -20,15 +21,15 @@ ul {
 }
 
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   line-height: 40px;
   color: black;
-  font-weight: bold;
+  font-weight: 400;
   text-align: center;
   float: center;
-  background-image: url("../src/images/mermaid.jpg");
-  background-repeat: repeat-x;
+  background-image: url("../../src/images/mermaid.jpg");
+  background-size: cover;
   background-position: center;
 }
 
