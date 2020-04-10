@@ -1,9 +1,17 @@
-header {
-  background-color: #baa7e4;
-  border-color: #cccccc;
+.header {
+  margin-bottom: 10%;
+  background-color: #DCC7AA;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  color: black;
+  color: #272626;
+}
+
+.header a {
+  color: #272626;
+}
+
+.header a:hover {
+
 }
 
 .things {
@@ -38,7 +46,25 @@ body {
     }
 }
 
+#contact-form {
+  padding: 0;
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
 
+#contact-container {
+  min-width: 800px;
+}
+
+.navbar-brand {
+  margin-left: 5%;
+}
+
+.header ul {
+  margin-left: auto;
+    margin-right: 10%;
+}
 
 main {
   border-color: #dddddd;
@@ -46,23 +72,14 @@ main {
 }
 
 p {
-  color: #1d1a1a;
-}
-
-main-container {
-  width: 100%;
-  padding: 0px;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  background-color: burlywood;
+  color: #272626;
 }
 
 footer {
-  background-color: #2bd6ba;
+  margin-top: 10%;
+  background-color: #DCC7AA;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(14, 13, 13);
+  color: #272626;
 }
 
 .things {
