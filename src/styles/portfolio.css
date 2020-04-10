@@ -60,6 +60,10 @@ p {
   color: #1d1a1a;
 }
 
+.col-sm a {
+  color: #331061;
+}
+
 main-container {
   width: 100%;
   padding: 0px;
