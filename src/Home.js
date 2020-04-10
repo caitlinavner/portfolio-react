@@ -4,19 +4,41 @@ import "./styles/home.css";
 function Home() {
   return (
     <div className="App">
-      <header id="masthead">
-        <div className="container">
-          <a href="/" id="logo">
-            {" "}
-            Katie Avner
-          </a>
-          <nav className="navbar">
-            <a href="/">About</a>
-            <a href="/Portfolio">Portfolio</a>
-            <a href="/Contact">Contact</a>
-          </nav>
+      <nav className="navbar navbar-expand-lg header">
+        <a className="navbar-brand" href="/">
+          Katie Avner
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a className="nav-link" href="/About">
+                About <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Portfolio">
+                Portfolio
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/Contact">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
-      </header>
+      </nav>
       <div id="main container" className="container">
         <br />
         <h1>About Me</h1>
@@ -45,21 +67,48 @@ function Home() {
           chapter of my life!
         </p>
       </div>
-      <footer>
-        <div className="container">
+      <nav className="navbar navbar-expand-lg footer">
+        <a className="navbar-brand" href="/">
           Get to know me and my work!
-          <nav>
-            <a href="https://www.linkedin.com/in/caitlin-avner-8aba9586/">
-              LinkedIn
-            </a>
-            <a href="https://github.com/caitlinavner">GitHub</a>
-            <a href="https://docs.google.com/document/d/1U2DjzObr5NoO-WeJA6viymzerMdlwQaSqOHMtOhN8Os/edit?usp=sharing">
-              Resume
-            </a>
-          </nav>
-          Copyright@
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a
+                className="nav-link"
+                href="https://www.linkedin.com/in/caitlin-avner-8aba9586"
+              >
+                {" "}
+                LinkedIn
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="https://github.com/caitlinavner">
+                GitHub
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="https://docs.google.com/document/d/1U2DjzObr5NoO-WeJA6viymzerMdlwQaSqOHMtOhN8Os/edit?usp=sharing"
+              >
+                Resume
+              </a>
+            </li>
+          </ul>
         </div>
-      </footer>
+      </nav>
     </div>
   );
 }

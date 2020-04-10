@@ -75,7 +75,18 @@ p {
   color: #272626;
 }
 
-footer {
+
+
+.footer ul {
+  margin-left: auto;
+    margin-right: 10%;
+}
+
+.footer a {
+  color: #272626;
+}
+
+.footer {
   margin-top: 10%;
   background-color: #DCC7AA;
   font-family: Georgia, "Times New Roman", Times, serif;
